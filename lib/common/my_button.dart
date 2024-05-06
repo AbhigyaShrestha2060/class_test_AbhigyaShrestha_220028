@@ -32,14 +32,14 @@ class _MyButtonState extends State<MyButton> {
         style: ButtonStyle(
           backgroundColor: MaterialStateProperty.all<Color>(isFirstClick
                   ? Colors.indigo
-                  : Colors.pink // Change color on first click
+                  : Colors.red // Change color on first click
               ),
         ),
         child: Center(
             child: Text(
           widget.text,
           style: const TextStyle(
-            color: Colors.black,
+            color: Colors.white,
             fontSize: 40,
           ),
         )),
